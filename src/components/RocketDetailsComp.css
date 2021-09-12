@@ -1,0 +1,29 @@
+.rocket-details-box{
+    height: 90vh;
+    min-width: 750px;
+}
+
+.rocket-details-image{
+    width: 750px;
+    height: 300px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.rocket-details-top-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.rocket-details-top-box > a{
+    text-decoration: none;
+    color: black;
+}
+
+.rocket-details-image{
+    margin: 15px;
+}

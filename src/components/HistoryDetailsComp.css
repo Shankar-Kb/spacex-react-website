@@ -1,0 +1,11 @@
+.details-box{
+    font-size: 40px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .article-details-title{
+    font-size: 75px;
+  }

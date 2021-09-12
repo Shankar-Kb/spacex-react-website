@@ -1,0 +1,23 @@
+.launch-details-box{
+    font-size: 35px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 750px;
+}
+
+.launch-details-top-box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+.launch-details-top-box > a{
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+.launch-subtitle{
+    color: grey;
+}
