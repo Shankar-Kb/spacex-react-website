@@ -52,10 +52,10 @@ const LaunchesComp = () => {
                         <h6 className="article-subtitle">{new Date(elem.launch_date_utc).toString()}</h6>
                         <h6 className="article-content"><b>Rocket Name: </b>{elem.rocket.rocket_name}</h6>
                         <h6 className="article-content"><b>Rocket Type: </b>{elem.rocket.rocket_type}</h6>
-                        <p className="site-links-box"> <b>Sites: </b>
+                        <div className="site-links-box"> <b>Sites: </b>
                             <a className="site-link" href={elem.links.article}>SpaceX</a>
                             <a className="site-link" href={elem.links.article}>Wikipedia</a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             ))}</div>

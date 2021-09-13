@@ -36,10 +36,10 @@ const HistoryDetailsComp = () => {
                     <div className="card-body">
                         <p className="card-title article-details-title">{event.title}</p>
                         <p className="card-subtitle text-muted">{new Date(event.event_date_utc).toString()}</p>
-                        <p className="site-links-box"> <b>Sites: </b>
+                        <div className="site-links-box"> <b>Sites: </b>
                             <a className="site-link" href={event.links.article}>SpaceX</a>
-                            <a className="site-link" href={event.links.article}>Wikipedia</a>
-                        </p>
+                            <a className="site-link" href={event.links.wikipedia}>Wikipedia</a>
+                        </div>
                         <p className="card-text"> {event.details} </p>
                     </div>
                 </div>

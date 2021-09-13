@@ -50,10 +50,10 @@ const HistoryComp = () => {
                     <div className="card-body">
                         <Link className="article-title" to={`/history/${elem.id}`}>{elem.title}</Link>
                         <h6 className="article-subtitle">{new Date(elem.event_date_utc).toString()}</h6>
-                        <p className="site-links-box"> <b>Sites: </b>
+                        <div className="site-links-box"> <b>Sites: </b>
                             <a className="site-link" href={elem.links.article}>SpaceX</a>
                             <a className="site-link" href={elem.links.article}>Wikipedia</a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             ))}</div>
