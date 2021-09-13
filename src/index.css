@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* body{
+body{
   background-color: #191919;
-  color: #fff !important;
+  color: #fff;
+}
+/* body a{
+  color: #fff;
 } */
 
 .navbar-box{
@@ -24,7 +27,6 @@
 
 .article-title{
   text-decoration: none;
-  color: black;
   font-weight: bold;
   font-size: 30px;
 }

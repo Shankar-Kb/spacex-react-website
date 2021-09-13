@@ -32,7 +32,7 @@ const HomePage = () => {
             {bio ?
                 <>
                     <div className="bio-box">
-                        <div className="title">{bio.name}</div>
+                        <div className="heading">{bio.name}</div>
                         <div className=""><b>CEO: </b>{bio.ceo}</div>
                         <div className=""><b>COO: </b>{bio.coo}</div>
                         <div className=""><b>CTO: </b>{bio.cto}</div>
@@ -49,7 +49,7 @@ const HomePage = () => {
                         <div className=""><b>Summary: </b>{bio.summary}</div>
                     </div>
 
-                    <div>Upcoming Launches</div>
+                    <div className="sub-heading">Upcoming Launches</div>
                     <div className="article-box-outer">{launches.map((elem, index) => (
                         <div key={index} className="card-box article-box">
                             <div className="card-body">
@@ -70,6 +70,5 @@ const HomePage = () => {
 
     )
 }
-
 
 export default HomePage;

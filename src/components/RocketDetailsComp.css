@@ -1,6 +1,7 @@
 .rocket-details-box{
-    height: 90vh;
+    height: 100vh;
     min-width: 750px;
+    font-size: 25px;
 }
 
 .rocket-details-image{
@@ -21,7 +22,6 @@
 
 .rocket-details-top-box > a{
     text-decoration: none;
-    color: black;
 }
 
 .rocket-details-image{

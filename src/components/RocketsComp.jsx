@@ -43,18 +43,18 @@ const RocketsComp = () => {
                     onChange={(e) => handleSearch(e.target.value)} />
             </div>
 
-            { (events.length === 0) && <p className="loading-box">Loading</p> }
+            {(events.length === 0) && <p className="loading-box">Loading</p>}
 
             <div className="article-box-outer">{events.map((elem, index) => (
                 <div key={index} className="card-box article-box">
                     <div className="card-body">
                         <Link className="article-title" to={`/rocket/${elem.rocket_id}`}>{elem.rocket_name}</Link>
                         <h6 className="article-subtitle">{new Date(elem.first_flight).toString()}</h6>
-                        {elem.active? <div className="active"><b>Status: </b>Active</div>: <div className="inactive"><b>Status: </b>Inactive</div>}
+                        {elem.active ? <div className="active"><b>Status: </b>Active</div> : <div className="inactive"><b>Status: </b>Inactive</div>}
                         <b>Company: </b>{elem.company}<br />
                         <b>Country: </b>{elem.country}
                         <div className="site-links-box"> <b>Sites: </b>
-                            <a className="site-link" href={elem.wikidivedia}>Wikipedia</a>
+                            <a className="site-link" href={elem.wikipedia}>Wikipedia</a>
                         </div>
                     </div>
                 </div>
@@ -63,6 +63,5 @@ const RocketsComp = () => {
 
     )
 }
-
 
 export default RocketsComp;

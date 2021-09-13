@@ -43,7 +43,7 @@ const LaunchesComp = () => {
                     onChange={(e) => handleSearch(e.target.value)} />
             </div>
 
-            { (events.length === 0) && <p className="loading-box">Loading</p> }
+            {(events.length === 0) && <p className="loading-box">Loading</p>}
 
             <div className="article-box-outer">{events.map((elem, index) => (
                 <div key={index} className="card-box article-box">
@@ -63,6 +63,5 @@ const LaunchesComp = () => {
 
     )
 }
-
 
 export default LaunchesComp;

@@ -31,8 +31,8 @@ const HistoryDetailsComp = () => {
     return (
 
         <div className="container col-md-6 offset-md-3 details-box">
-            {event ? 
-                <div className="card card-box article-details-box">
+            {event ?
+                <div className="card-box article-details-box">
                     <div className="card-body">
                         <p className="card-title article-details-title">{event.title}</p>
                         <p className="card-subtitle text-muted">{new Date(event.event_date_utc).toString()}</p>
@@ -43,12 +43,11 @@ const HistoryDetailsComp = () => {
                         <p className="card-text"> {event.details} </p>
                     </div>
                 </div>
-            :
-            <div className="loading-box">Loading...</div>}
+                :
+                <div className="loading-box">Loading...</div>}
         </div>
 
     )
 }
-
 
 export default HistoryDetailsComp;

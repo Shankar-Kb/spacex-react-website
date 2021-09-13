@@ -1,6 +1,6 @@
 .launch-details-box{
     font-size: 35px;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,6 @@
 .launch-details-top-box > a{
     font-size: 100px;
     text-decoration: none;
-    color: black;
 }
 .launch-subtitle{
     color: grey;
